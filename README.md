@@ -2,7 +2,7 @@
 
 নিত্যপ্রয়োজনীয় পণ্যের আজকের বাজারদর এক নজরে — চাল, ডাল, তেল, সবজি, মাছ, মাংস, ডিম-দুধ ও মসলা। কোন পণ্যের দাম গতকালের চেয়ে বেড়েছে বা কমেছে, আর কোন বাজারে কত দাম, সবই এক জায়গায়।
 
-**Live:** _add your deployed link_ &nbsp;|&nbsp; **Repo:** _add your GitHub link_
+**Live:** [https://bazar-dor-drab-six.vercel.app](https://bazar-dor-drab-six.vercel.app) &nbsp;|&nbsp; **Repo:** [https://github.com/nargiscore/bazar-dor](https://github.com/nargiscore/bazar-dor)
 
 ##  Key Features
 
