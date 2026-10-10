@@ -15,7 +15,7 @@ const UserIcon = () => (
   </svg>
 );
 const LogoutIcon = () => (
-  <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden>
+  <svg viewBox="0 0 24 24" className="h-4.5 w-4.5" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden>
     <path d="M9 14L4 9l5-5" />
     <path d="M4 9h10a6 6 0 010 12h-2" />
   </svg>

@@ -25,7 +25,7 @@ export default function UpdateProfileForm({ initialName }: { initialName: string
     <form onSubmit={onSubmit} className="mt-4 space-y-4">
       <label className="block">
         <span className="mb-1 block text-sm text-base-content/70">নাম</span>
-        <input className="input w-full border-base-300 bg-base-100" value={name} onChange={(e) => setName(e.target.value)} autoComplete="name" />
+        <input className="input w-full border-base-300 bg-base-200" value={name} onChange={(e) => setName(e.target.value)} autoComplete="name" />
       </label>
       <button type="submit" className="btn btn-primary w-full shadow-md" disabled={loading}>
         {loading && <span className="loading loading-spinner loading-sm" />}
