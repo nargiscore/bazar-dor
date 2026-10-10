@@ -43,7 +43,7 @@ export default function SignUpForm() {
   const label = "mb-1 block text-sm font-medium";
 
   return (
-    <div className="mx-auto max-w-md px-4 py-10">
+    <div className="mx-auto max-w-md px-4 py-11">
       <h1 className="text-center text-2xl font-bold">অ্যাকাউন্ট তৈরি করুন</h1>
       <p className="mt-1 text-center text-sm text-base-content/65">বিনা খরচে সাইন আপ করে সব বিস্তারিত দাম দেখুন।</p>
 
