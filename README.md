@@ -1,10 +1,10 @@
-# 🛒 বাজার দর (BazarDor)
+#  বাজার দর (BazarDor)
 
 নিত্যপ্রয়োজনীয় পণ্যের আজকের বাজারদর এক নজরে — চাল, ডাল, তেল, সবজি, মাছ, মাংস, ডিম-দুধ ও মসলা। কোন পণ্যের দাম গতকালের চেয়ে বেড়েছে বা কমেছে, আর কোন বাজারে কত দাম, সবই এক জায়গায়।
 
 **Live:** _add your deployed link_ &nbsp;|&nbsp; **Repo:** _add your GitHub link_
 
-## ✨ Key Features
+##  Key Features
 
 1. **Live price ticker** — navbar-এর নিচে অনন্ত স্ক্রলিং স্ট্রিপে প্রতিটি পণ্যের দাম ও ▲/▼ পরিবর্তন।
 2. **দাম বেড়েছে / কমেছে** — হোম পেজে সবচেয়ে বেশি বাড়া ও কমা ৬টি করে পণ্য আলাদা সেকশনে।
@@ -14,11 +14,11 @@
 6. **প্রোফাইল আপডেট** — নাম পরিবর্তন করার আলাদা পেজ।
 7. **Responsive & polished states** — মোবাইল/ট্যাবলেট/ডেস্কটপ, skeleton loader, ৪০৪ পেজ, error ও empty state।
 
-## 🧰 Technologies
+##  Technologies
 
 Next.js (App Router) · TypeScript · Tailwind CSS v4 · daisyUI · Better Auth · MongoDB · react-hot-toast
 
-## 🚀 Run locally
+##  Run locally
 
 ```bash
 npm install
@@ -41,11 +41,11 @@ OAuth redirect (callback) URLs:
 - Google: `<BETTER_AUTH_URL>/api/auth/callback/google`
 - GitHub: `<BETTER_AUTH_URL>/api/auth/callback/github`
 
-## 🌐 Deploy (Vercel)
+##  Deploy (Vercel)
 
 Import the repo, add the same environment variables (with `BETTER_AUTH_URL` set to the Vercel domain), deploy. Dynamic routes (`/category/[slug]`, `/product/[slug]`) work on refresh. In MongoDB Atlas, allow network access from `0.0.0.0/0` so Vercel can connect.
 
-## 🗂️ Structure
+##  Structure
 
 ```
 app/            routes (home, category/[slug], product/[slug], signin, signup, profile, 404)
