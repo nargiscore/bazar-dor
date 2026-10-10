@@ -41,7 +41,7 @@ export default function Navbar() {
   const firstName = (session?.user.name || "").trim().split(/\s+/)[0];
 
   return (
-    <header className="border-b border-base-300 bg-[#f9fbf9]">
+    <header className="border-b border-base-400 bg-[#f9fbf9]">
       <div className="mx-auto flex max-w-page items-center justify-between gap-3 px-4 py-3">
         <Link href="/" className="flex items-center gap-2.5" aria-label="বাজার দর, হোম পেজ">
           <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary shadow-sm">
