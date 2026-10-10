@@ -45,7 +45,7 @@ export default function SignUpForm() {
   return (
     <div className="mx-auto max-w-md px-4 py-11">
       <h1 className="text-center text-2xl font-bold">অ্যাকাউন্ট তৈরি করুন</h1>
-      <p className="mt-1 text-center text-sm text-base-content/65">বিনা খরচে সাইন আপ করে সব বিস্তারিত দাম দেখুন।</p>
+      <p className="mt-1 text-center text-sm text-base-content/66">বিনা খরচে সাইন আপ করে সব বিস্তারিত দাম দেখুন।</p>
 
       <div className="mt-6 rounded-2xl border border-base-300 bg-base-100 p-6">
         <form onSubmit={onSubmit} className="space-y-4" noValidate>
