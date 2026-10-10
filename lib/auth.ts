@@ -37,5 +37,14 @@ export const auth = betterAuth({
     requireEmailVerification: false,
   },
   socialProviders,
+  // Same email via Google/GitHub and email+password -> link to one account
+  account: {
+    accountLinking: {
+      enabled: true,
+      trustedProviders: ["google", "github"],
+      // email/password users here are never email-verified (assignment has no verification flow)
+      requireLocalEmailVerified: false,
+    },
+  },
   plugins: [nextCookies()], // keep last
 });
